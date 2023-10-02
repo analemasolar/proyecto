@@ -1,0 +1,11 @@
+prefix=/usr/local/Caskroom/miniforge/base/envs/proyecto
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/usr/local/Caskroom/miniforge/base/envs/proyecto/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

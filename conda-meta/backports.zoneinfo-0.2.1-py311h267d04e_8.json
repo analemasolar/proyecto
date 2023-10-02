@@ -1,0 +1,35 @@
+{
+  "build": "py311h267d04e_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "extracted_package_dir": "/usr/local/Caskroom/miniforge/base/pkgs/backports.zoneinfo-0.2.1-py311h267d04e_8",
+  "features": "",
+  "files": [],
+  "fn": "backports.zoneinfo-0.2.1-py311h267d04e_8.conda",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/usr/local/Caskroom/miniforge/base/pkgs/backports.zoneinfo-0.2.1-py311h267d04e_8",
+    "type": 1
+  },
+  "md5": "acbef984789bc78fc49cca2e736b8006",
+  "name": "backports.zoneinfo",
+  "package_tarball_full_path": "/usr/local/Caskroom/miniforge/base/pkgs/backports.zoneinfo-0.2.1-py311h267d04e_8.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a1cdbc446ff4db99e9e39b73b1611932dc9c5111ecd90dd131fa6fdf62de904d",
+  "size": 6899,
+  "subdir": "osx-arm64",
+  "timestamp": 1695531612758,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/backports.zoneinfo-0.2.1-py311h267d04e_8.conda",
+  "version": "0.2.1"
+}

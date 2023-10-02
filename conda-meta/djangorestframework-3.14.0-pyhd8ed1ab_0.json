@@ -1,0 +1,2336 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "django >=2.2",
+    "python >=3.6",
+    "pytz"
+  ],
+  "extracted_package_dir": "/usr/local/Caskroom/miniforge/base/pkgs/djangorestframework-3.14.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/LICENSE.md",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/djangorestframework-3.14.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/rest_framework/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/apps.py",
+    "lib/python3.11/site-packages/rest_framework/authentication.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/admin.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/apps.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/management/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/management/commands/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/management/commands/drf_create_token.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/0001_initial.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/0002_auto_20160226_1747.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/0003_tokenproxy.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/models.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/serializers.py",
+    "lib/python3.11/site-packages/rest_framework/authtoken/views.py",
+    "lib/python3.11/site-packages/rest_framework/checks.py",
+    "lib/python3.11/site-packages/rest_framework/compat.py",
+    "lib/python3.11/site-packages/rest_framework/decorators.py",
+    "lib/python3.11/site-packages/rest_framework/documentation.py",
+    "lib/python3.11/site-packages/rest_framework/exceptions.py",
+    "lib/python3.11/site-packages/rest_framework/fields.py",
+    "lib/python3.11/site-packages/rest_framework/filters.py",
+    "lib/python3.11/site-packages/rest_framework/generics.py",
+    "lib/python3.11/site-packages/rest_framework/locale/ach/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ar/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/az/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/be/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/bg/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ca/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ca_ES/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/cs/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/da/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/de/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/el/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/el_GR/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/en/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/en_AU/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/en_CA/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/en_US/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/es/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/et/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/fa/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/fa_IR/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/fi/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/fr/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/fr_CA/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/gl/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/gl_ES/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/he_IL/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/hu/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/hy/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/id/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/it/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ja/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ko_KR/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/lt/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/lv/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/mk/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/nb/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ne_NP/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/nl/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/nn/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/no/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/pl/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/pt/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/pt_BR/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/pt_PT/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ro/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ru/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/ru_RU/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/sk/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/sl/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/sv/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/th/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/tr/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/tr_TR/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/uk/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/vi/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/zh_CN/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/zh_Hans/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/zh_Hant/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/locale/zh_TW/LC_MESSAGES/django.mo",
+    "lib/python3.11/site-packages/rest_framework/management/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/management/commands/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/management/commands/generateschema.py",
+    "lib/python3.11/site-packages/rest_framework/metadata.py",
+    "lib/python3.11/site-packages/rest_framework/mixins.py",
+    "lib/python3.11/site-packages/rest_framework/negotiation.py",
+    "lib/python3.11/site-packages/rest_framework/pagination.py",
+    "lib/python3.11/site-packages/rest_framework/parsers.py",
+    "lib/python3.11/site-packages/rest_framework/permissions.py",
+    "lib/python3.11/site-packages/rest_framework/relations.py",
+    "lib/python3.11/site-packages/rest_framework/renderers.py",
+    "lib/python3.11/site-packages/rest_framework/request.py",
+    "lib/python3.11/site-packages/rest_framework/response.py",
+    "lib/python3.11/site-packages/rest_framework/reverse.py",
+    "lib/python3.11/site-packages/rest_framework/routers.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/coreapi.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/generators.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/inspectors.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/openapi.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/utils.py",
+    "lib/python3.11/site-packages/rest_framework/schemas/views.py",
+    "lib/python3.11/site-packages/rest_framework/serializers.py",
+    "lib/python3.11/site-packages/rest_framework/settings.py",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/bootstrap-theme.min.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/bootstrap-theme.min.css.map",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/bootstrap-tweaks.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/bootstrap.min.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/bootstrap.min.css.map",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/default.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/font-awesome-4.0.3.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/css/prettify.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/css/base.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/css/highlight.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/css/jquery.json-view.min.css",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/img/favicon.ico",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/img/grid.png",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/js/api.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/js/highlight.pack.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/docs/js/jquery.json-view.min.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.eot",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.svg",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.ttf",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.woff",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.eot",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.svg",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.ttf",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.woff",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.woff2",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/img/glyphicons-halflings-white.png",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/img/glyphicons-halflings.png",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/img/grid.png",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/ajax-form.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/bootstrap.min.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/csrf.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/default.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/jquery-3.5.1.min.js",
+    "lib/python3.11/site-packages/rest_framework/static/rest_framework/js/prettify-min.js",
+    "lib/python3.11/site-packages/rest_framework/status.py",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/admin.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/admin/detail.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/admin/dict_value.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/admin/list.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/admin/list_value.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/admin/simple_list_value.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/api.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/base.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/auth/basic.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/auth/session.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/auth/token.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/document.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/error.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/index.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/interact.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/langs/javascript.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/langs/python-intro.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/langs/python.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/langs/shell-intro.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/langs/shell.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/link.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/docs/sidebar.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/filters/base.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/filters/ordering.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/filters/search.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/checkbox.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/checkbox_multiple.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/dict_field.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/fieldset.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/form.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/input.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/list_field.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/list_fieldset.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/radio.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/select.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/select_multiple.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/horizontal/textarea.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/checkbox.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/checkbox_multiple.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/dict_field.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/fieldset.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/form.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/input.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/list_field.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/list_fieldset.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/radio.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/select.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/select_multiple.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/inline/textarea.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/login.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/login_base.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/pagination/numbers.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/pagination/previous_and_next.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/raw_data_form.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/schema.js",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/checkbox.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/checkbox_multiple.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/dict_field.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/fieldset.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/form.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/input.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/list_field.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/list_fieldset.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/radio.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/select.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/select_multiple.html",
+    "lib/python3.11/site-packages/rest_framework/templates/rest_framework/vertical/textarea.html",
+    "lib/python3.11/site-packages/rest_framework/templatetags/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/templatetags/rest_framework.py",
+    "lib/python3.11/site-packages/rest_framework/test.py",
+    "lib/python3.11/site-packages/rest_framework/throttling.py",
+    "lib/python3.11/site-packages/rest_framework/urlpatterns.py",
+    "lib/python3.11/site-packages/rest_framework/urls.py",
+    "lib/python3.11/site-packages/rest_framework/utils/__init__.py",
+    "lib/python3.11/site-packages/rest_framework/utils/breadcrumbs.py",
+    "lib/python3.11/site-packages/rest_framework/utils/encoders.py",
+    "lib/python3.11/site-packages/rest_framework/utils/field_mapping.py",
+    "lib/python3.11/site-packages/rest_framework/utils/formatting.py",
+    "lib/python3.11/site-packages/rest_framework/utils/html.py",
+    "lib/python3.11/site-packages/rest_framework/utils/humanize_datetime.py",
+    "lib/python3.11/site-packages/rest_framework/utils/json.py",
+    "lib/python3.11/site-packages/rest_framework/utils/mediatypes.py",
+    "lib/python3.11/site-packages/rest_framework/utils/model_meta.py",
+    "lib/python3.11/site-packages/rest_framework/utils/representation.py",
+    "lib/python3.11/site-packages/rest_framework/utils/serializer_helpers.py",
+    "lib/python3.11/site-packages/rest_framework/utils/urls.py",
+    "lib/python3.11/site-packages/rest_framework/validators.py",
+    "lib/python3.11/site-packages/rest_framework/versioning.py",
+    "lib/python3.11/site-packages/rest_framework/views.py",
+    "lib/python3.11/site-packages/rest_framework/viewsets.py",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/apps.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/authentication.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/admin.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/apps.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/management/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/management/commands/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/management/commands/__pycache__/drf_create_token.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/0001_initial.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/0002_auto_20160226_1747.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/0003_tokenproxy.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/models.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/serializers.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/views.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/checks.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/decorators.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/documentation.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/fields.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/filters.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/generics.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/management/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/management/commands/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/management/commands/__pycache__/generateschema.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/metadata.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/mixins.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/negotiation.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/pagination.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/parsers.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/permissions.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/relations.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/renderers.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/request.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/response.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/reverse.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/routers.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/coreapi.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/generators.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/inspectors.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/openapi.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/views.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/serializers.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/settings.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/status.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/templatetags/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/templatetags/__pycache__/rest_framework.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/test.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/throttling.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/urlpatterns.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/urls.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/breadcrumbs.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/encoders.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/field_mapping.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/formatting.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/html.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/humanize_datetime.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/json.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/mediatypes.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/model_meta.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/representation.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/serializer_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/utils/__pycache__/urls.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/validators.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/versioning.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/views.cpython-311.pyc",
+    "lib/python3.11/site-packages/rest_framework/__pycache__/viewsets.cpython-311.pyc"
+  ],
+  "fn": "djangorestframework-3.14.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/usr/local/Caskroom/miniforge/base/pkgs/djangorestframework-3.14.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b4894fdeb32022ead4a79435d5a1a8da",
+  "name": "djangorestframework",
+  "noarch": "python",
+  "package_tarball_full_path": "/usr/local/Caskroom/miniforge/base/pkgs/djangorestframework-3.14.0-pyhd8ed1ab_0",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "cc12b0b85368972177ebf422089419b9fe3eea5729fecb11105c640f6eeaccd4",
+        "sha256_in_prefix": "cc12b0b85368972177ebf422089419b9fe3eea5729fecb11105c640f6eeaccd4",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "77396951467aa14d05500c7059ebefa09ab8b96185d735289415e62d6bf7a87b",
+        "sha256_in_prefix": "77396951467aa14d05500c7059ebefa09ab8b96185d735289415e62d6bf7a87b",
+        "size_in_bytes": 10683
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "411b52ffe249943511700a4a8d0ac1f075649ee49a4e71b2c448b5d090b3b0a8",
+        "sha256_in_prefix": "411b52ffe249943511700a4a8d0ac1f075649ee49a4e71b2c448b5d090b3b0a8",
+        "size_in_bytes": 30256
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "adf08643910d6b23630985b5d9e51cd72bbd8721572ff35a902739b3d562d7f2",
+        "sha256_in_prefix": "adf08643910d6b23630985b5d9e51cd72bbd8721572ff35a902739b3d562d7f2",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/djangorestframework-3.14.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fec0ce20de53edeb2000de739677cb1cba3b006ed35aa058553c8529545d5efe",
+        "sha256_in_prefix": "fec0ce20de53edeb2000de739677cb1cba3b006ed35aa058553c8529545d5efe",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/rest_framework/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "639bf5b04f7b99ba3fa171ff1ce6a45689d737e17504003dcf59fc6f3d53d4de",
+        "sha256_in_prefix": "639bf5b04f7b99ba3fa171ff1ce6a45689d737e17504003dcf59fc6f3d53d4de",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "site-packages/rest_framework/apps.py",
+        "path_type": "hardlink",
+        "sha256": "7beb280e7afa5b33b9614e152a58860603ffbe77aaa11f394a27ed43b1fb19ee",
+        "sha256_in_prefix": "7beb280e7afa5b33b9614e152a58860603ffbe77aaa11f394a27ed43b1fb19ee",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "site-packages/rest_framework/authentication.py",
+        "path_type": "hardlink",
+        "sha256": "9613330d1afa319f5e3025a710548ad362d81aaa580d2f9547172604f0033879",
+        "sha256_in_prefix": "9613330d1afa319f5e3025a710548ad362d81aaa580d2f9547172604f0033879",
+        "size_in_bytes": 7739
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "365d9fb1063a703df7db57579837b461185085e7f40b86cfa2d866b322db6af8",
+        "sha256_in_prefix": "365d9fb1063a703df7db57579837b461185085e7f40b86cfa2d866b322db6af8",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/admin.py",
+        "path_type": "hardlink",
+        "sha256": "6a3ccf6378c4026d96c47568eca66997ca47e83ccf02e12155f165bda5e9573a",
+        "sha256_in_prefix": "6a3ccf6378c4026d96c47568eca66997ca47e83ccf02e12155f165bda5e9573a",
+        "size_in_bytes": 1760
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/apps.py",
+        "path_type": "hardlink",
+        "sha256": "3b947fe3cc3c8347138552749364c7df1e6dec3d4a4dd377cec2b03d76436124",
+        "sha256_in_prefix": "3b947fe3cc3c8347138552749364c7df1e6dec3d4a4dd377cec2b03d76436124",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/management/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/management/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/management/commands/drf_create_token.py",
+        "path_type": "hardlink",
+        "sha256": "09c1a4b92eb675a4fc61720cb7ae266dcd10bb5cc0e6c2272922342b556cc7d5",
+        "sha256_in_prefix": "09c1a4b92eb675a4fc61720cb7ae266dcd10bb5cc0e6c2272922342b556cc7d5",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/migrations/0001_initial.py",
+        "path_type": "hardlink",
+        "sha256": "f2199a72dc76a4a19e255f79ada5b817b925c9736570d401be66a1be72e3db15",
+        "sha256_in_prefix": "f2199a72dc76a4a19e255f79ada5b817b925c9736570d401be66a1be72e3db15",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/migrations/0002_auto_20160226_1747.py",
+        "path_type": "hardlink",
+        "sha256": "7f60bc909d43e00dae4ed7b51f6502736fa9fe0c4f5b34f8ffdea86a0279ea79",
+        "sha256_in_prefix": "7f60bc909d43e00dae4ed7b51f6502736fa9fe0c4f5b34f8ffdea86a0279ea79",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/migrations/0003_tokenproxy.py",
+        "path_type": "hardlink",
+        "sha256": "6ec16fccefe2f22311687bde6c8654e791ca36bd3c920d83e8bb5db994035c6c",
+        "sha256_in_prefix": "6ec16fccefe2f22311687bde6c8654e791ca36bd3c920d83e8bb5db994035c6c",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/migrations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/models.py",
+        "path_type": "hardlink",
+        "sha256": "5ca92cdd6b8a302ca3e256c2fff397975a73a9860779771262bc15da2364e755",
+        "sha256_in_prefix": "5ca92cdd6b8a302ca3e256c2fff397975a73a9860779771262bc15da2364e755",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/serializers.py",
+        "path_type": "hardlink",
+        "sha256": "819149dea856d7b74e3e282a634fd0c7dc5541e443d55f1fcb58f4ed05ca9947",
+        "sha256_in_prefix": "819149dea856d7b74e3e282a634fd0c7dc5541e443d55f1fcb58f4ed05ca9947",
+        "size_in_bytes": 1384
+      },
+      {
+        "_path": "site-packages/rest_framework/authtoken/views.py",
+        "path_type": "hardlink",
+        "sha256": "2175fa3cd53082e46aed919e6eb1bebe0b803059123a6ab8a8f248ec24dcc806",
+        "sha256_in_prefix": "2175fa3cd53082e46aed919e6eb1bebe0b803059123a6ab8a8f248ec24dcc806",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "site-packages/rest_framework/checks.py",
+        "path_type": "hardlink",
+        "sha256": "58ee7b63d2acfcc40aab416c1555e83fba1d40c432548afe2db3ede9f731d8b5",
+        "sha256_in_prefix": "58ee7b63d2acfcc40aab416c1555e83fba1d40c432548afe2db3ede9f731d8b5",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "site-packages/rest_framework/compat.py",
+        "path_type": "hardlink",
+        "sha256": "12537a078627052a27080c73676edfbbca961a499bcb93ff8b19e3cc5cdcf0ad",
+        "sha256_in_prefix": "12537a078627052a27080c73676edfbbca961a499bcb93ff8b19e3cc5cdcf0ad",
+        "size_in_bytes": 5521
+      },
+      {
+        "_path": "site-packages/rest_framework/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "7cfd6c8a07c7b3f21a87fd29abfa0fd050af82df61f77f9c6166b1255795becf",
+        "sha256_in_prefix": "7cfd6c8a07c7b3f21a87fd29abfa0fd050af82df61f77f9c6166b1255795becf",
+        "size_in_bytes": 7785
+      },
+      {
+        "_path": "site-packages/rest_framework/documentation.py",
+        "path_type": "hardlink",
+        "sha256": "10a646ccc5335eaf07fdbae2d1d449f3d9e9c13e89c0a40e10d34f1da610e7e9",
+        "sha256_in_prefix": "10a646ccc5335eaf07fdbae2d1d449f3d9e9c13e89c0a40e10d34f1da610e7e9",
+        "size_in_bytes": 3054
+      },
+      {
+        "_path": "site-packages/rest_framework/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "935e5ae7264f324e084f615b56620591e0111f5e672043514d7d9be41dcba062",
+        "sha256_in_prefix": "935e5ae7264f324e084f615b56620591e0111f5e672043514d7d9be41dcba062",
+        "size_in_bytes": 8159
+      },
+      {
+        "_path": "site-packages/rest_framework/fields.py",
+        "path_type": "hardlink",
+        "sha256": "cff3a67ed5f5e05a33111921b3e3c9f8301219c5c7a4ca523df77cc98d6e504b",
+        "sha256_in_prefix": "cff3a67ed5f5e05a33111921b3e3c9f8301219c5c7a4ca523df77cc98d6e504b",
+        "size_in_bytes": 67410
+      },
+      {
+        "_path": "site-packages/rest_framework/filters.py",
+        "path_type": "hardlink",
+        "sha256": "39168a0b1f760e34855f51d7917eaf1a785d5ce0bc6c8c750090ff1757285888",
+        "sha256_in_prefix": "39168a0b1f760e34855f51d7917eaf1a785d5ce0bc6c8c750090ff1757285888",
+        "size_in_bytes": 12488
+      },
+      {
+        "_path": "site-packages/rest_framework/generics.py",
+        "path_type": "hardlink",
+        "sha256": "ae22819bc9bdcb14a7cba69d94189e3de0aa5a6bb84493ef5559319a2ba2748c",
+        "sha256_in_prefix": "ae22819bc9bdcb14a7cba69d94189e3de0aa5a6bb84493ef5559319a2ba2748c",
+        "size_in_bytes": 10040
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ach/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "dcbc95fcece50110df7ae86f669e8e09db7ac47e1eb1ec0b8797d4f1ae1e5f18",
+        "sha256_in_prefix": "dcbc95fcece50110df7ae86f669e8e09db7ac47e1eb1ec0b8797d4f1ae1e5f18",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ar/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "b61ede7f1a2da353ff88564a15ecc7c95b9060ecaca5bbeeb26f9f0279398fce",
+        "sha256_in_prefix": "b61ede7f1a2da353ff88564a15ecc7c95b9060ecaca5bbeeb26f9f0279398fce",
+        "size_in_bytes": 12150
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/az/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "077208a0862660f90cf623ac9b4235d196ffff0eeb55567d1e158c85bbefe5b0",
+        "sha256_in_prefix": "077208a0862660f90cf623ac9b4235d196ffff0eeb55567d1e158c85bbefe5b0",
+        "size_in_bytes": 10428
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/be/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "4efa8fa5c3f53d6bcec7a47004cd6f3b97d46aa5cc45d766c116f4e53baa4da4",
+        "sha256_in_prefix": "4efa8fa5c3f53d6bcec7a47004cd6f3b97d46aa5cc45d766c116f4e53baa4da4",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/bg/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "8fc517c853bb61d46c6793b0b48d797d49ab37a427489a27a57fde228ef85824",
+        "sha256_in_prefix": "8fc517c853bb61d46c6793b0b48d797d49ab37a427489a27a57fde228ef85824",
+        "size_in_bytes": 13083
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ca/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "e61d4a615d782671485f4d80054f1678596a24628204ab606d131c4769738e91",
+        "sha256_in_prefix": "e61d4a615d782671485f4d80054f1678596a24628204ab606d131c4769738e91",
+        "size_in_bytes": 9300
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ca_ES/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "4e8aa587ca29031b66e3a5b9506bcb656fe7b178e48d4a003108dce5d17e5a24",
+        "sha256_in_prefix": "4e8aa587ca29031b66e3a5b9506bcb656fe7b178e48d4a003108dce5d17e5a24",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/cs/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "28c2e1521faa00f940bca59a19962014928231a2c7d0de52760398d9dd204a28",
+        "sha256_in_prefix": "28c2e1521faa00f940bca59a19962014928231a2c7d0de52760398d9dd204a28",
+        "size_in_bytes": 10519
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/da/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "fd1356a83b339b948f47a9ba2c94a4a642ec3a5c57e850a6ee65762e7f090d9c",
+        "sha256_in_prefix": "fd1356a83b339b948f47a9ba2c94a4a642ec3a5c57e850a6ee65762e7f090d9c",
+        "size_in_bytes": 9955
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/de/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "f2ff2763c1e63083ad785dacdb8b1314aee538a4d2853c6f31685b9b4a8c9b70",
+        "sha256_in_prefix": "f2ff2763c1e63083ad785dacdb8b1314aee538a4d2853c6f31685b9b4a8c9b70",
+        "size_in_bytes": 10490
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/el/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "45bc52434f21ac5075ef788d71f553be8014e6d793925f522ac1052ee38ad812",
+        "sha256_in_prefix": "45bc52434f21ac5075ef788d71f553be8014e6d793925f522ac1052ee38ad812",
+        "size_in_bytes": 12933
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/el_GR/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "fe8501047eee480953710dca9b6536930151327a46dc5cf45f50ae0106d4ffd2",
+        "sha256_in_prefix": "fe8501047eee480953710dca9b6536930151327a46dc5cf45f50ae0106d4ffd2",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/en/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "35340e1bb1b44b97082cf7e38b0af98c62c54baf812d29095b3f88677e169ea5",
+        "sha256_in_prefix": "35340e1bb1b44b97082cf7e38b0af98c62c54baf812d29095b3f88677e169ea5",
+        "size_in_bytes": 12285
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/en_AU/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "eb235d429dee315f9feb73fbc6ebd7e9fcd1c9bfa21b7ba9c079b3d9c2473655",
+        "sha256_in_prefix": "eb235d429dee315f9feb73fbc6ebd7e9fcd1c9bfa21b7ba9c079b3d9c2473655",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/en_CA/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "253e3087e91059f78ee13f9b7bd9706c368bcf4415bb93f44a72b804325f3924",
+        "sha256_in_prefix": "253e3087e91059f78ee13f9b7bd9706c368bcf4415bb93f44a72b804325f3924",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/en_US/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "5170906f3d80c41be1f8843b6c6823a019e28e8f21f437c4f75d3b03ed8c8249",
+        "sha256_in_prefix": "5170906f3d80c41be1f8843b6c6823a019e28e8f21f437c4f75d3b03ed8c8249",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/es/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "d8da82ab8464ea4d2c6543a4d4e3b9e555923a01d19ee52ebe071cdf007b3146",
+        "sha256_in_prefix": "d8da82ab8464ea4d2c6543a4d4e3b9e555923a01d19ee52ebe071cdf007b3146",
+        "size_in_bytes": 10627
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/et/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "f9932b01f522a8cccf9f1243eaa34263746a465ee6d2363c2e3c05cfaf1dc4ce",
+        "sha256_in_prefix": "f9932b01f522a8cccf9f1243eaa34263746a465ee6d2363c2e3c05cfaf1dc4ce",
+        "size_in_bytes": 10096
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/fa/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "6b507b0a0065c2df43fdc1ea07a5496e3f8f5224af1b540db228fa70f5689bfb",
+        "sha256_in_prefix": "6b507b0a0065c2df43fdc1ea07a5496e3f8f5224af1b540db228fa70f5689bfb",
+        "size_in_bytes": 11976
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/fa_IR/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "dbdceae0dcddb5505cd10fcb6a81d13a73585edc1be2449dacc30ab3ecb20b21",
+        "sha256_in_prefix": "dbdceae0dcddb5505cd10fcb6a81d13a73585edc1be2449dacc30ab3ecb20b21",
+        "size_in_bytes": 11989
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/fi/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "f933d8c622a52cc08e7e33d133daefbcee4a4ee8f95e7ac9840070f436fc752b",
+        "sha256_in_prefix": "f933d8c622a52cc08e7e33d133daefbcee4a4ee8f95e7ac9840070f436fc752b",
+        "size_in_bytes": 10197
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/fr/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "e7a6b8f1b7f22c65671ab4e22aa18d7ba7dbe1f6039282526ab2de3f775b99cd",
+        "sha256_in_prefix": "e7a6b8f1b7f22c65671ab4e22aa18d7ba7dbe1f6039282526ab2de3f775b99cd",
+        "size_in_bytes": 10662
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/fr_CA/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "0089133e5c92fc9e2ed7e0ed8eba31958678ff12bcb3f74147ca6ce7ddd75531",
+        "sha256_in_prefix": "0089133e5c92fc9e2ed7e0ed8eba31958678ff12bcb3f74147ca6ce7ddd75531",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/gl/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "f9d8622c572717a9d94a6d85d632c63aef4960700acf8ebcc36843e3c1dfeea5",
+        "sha256_in_prefix": "f9d8622c572717a9d94a6d85d632c63aef4960700acf8ebcc36843e3c1dfeea5",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/gl_ES/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "2108ec0606e0147678f2258731e1f37db9e5851790368785ab7a4260c49bf200",
+        "sha256_in_prefix": "2108ec0606e0147678f2258731e1f37db9e5851790368785ab7a4260c49bf200",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/he_IL/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "2669198e3b5da649bfe758076d60dae8b9c05caf1d1c17715af9192d57214cf5",
+        "sha256_in_prefix": "2669198e3b5da649bfe758076d60dae8b9c05caf1d1c17715af9192d57214cf5",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/hu/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "0ec1261bd3d23cc3ffb61084da3fd9e0c508c556fd258d083f1c314a38adf432",
+        "sha256_in_prefix": "0ec1261bd3d23cc3ffb61084da3fd9e0c508c556fd258d083f1c314a38adf432",
+        "size_in_bytes": 10844
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/hy/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "af91a3876c7b4531a33edd39373b31cde4ba9d0c6a342951f49d546294755b7d",
+        "sha256_in_prefix": "af91a3876c7b4531a33edd39373b31cde4ba9d0c6a342951f49d546294755b7d",
+        "size_in_bytes": 12885
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/id/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "5fc9a605a1184345353c12a9995cc4bf4ee3a9dad901099668834c8e7144206a",
+        "sha256_in_prefix": "5fc9a605a1184345353c12a9995cc4bf4ee3a9dad901099668834c8e7144206a",
+        "size_in_bytes": 5188
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/it/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "49ebaf91ed8a6f75d9c8182c2e774ae2473800138715bd6893648d5992c1937a",
+        "sha256_in_prefix": "49ebaf91ed8a6f75d9c8182c2e774ae2473800138715bd6893648d5992c1937a",
+        "size_in_bytes": 10480
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ja/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "0f5f4e5f2dafb74b79e323d809b0def411b09eb05e99c1f7ce4c170f662985c0",
+        "sha256_in_prefix": "0f5f4e5f2dafb74b79e323d809b0def411b09eb05e99c1f7ce4c170f662985c0",
+        "size_in_bytes": 11759
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ko_KR/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "334f5d3df4ab16a717f137bbc571a09e1808939d8b87192c88bae8a19dec16f1",
+        "sha256_in_prefix": "334f5d3df4ab16a717f137bbc571a09e1808939d8b87192c88bae8a19dec16f1",
+        "size_in_bytes": 11698
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/lt/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "fba5b6b8927781811891dd47d4217831f472927ef9fc7276578be09b4ae5bb8f",
+        "sha256_in_prefix": "fba5b6b8927781811891dd47d4217831f472927ef9fc7276578be09b4ae5bb8f",
+        "size_in_bytes": 5056
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/lv/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "55c3ec0cfde1559b7c60c96ad51760626fd6508a39416b784814def4ac889ff9",
+        "sha256_in_prefix": "55c3ec0cfde1559b7c60c96ad51760626fd6508a39416b784814def4ac889ff9",
+        "size_in_bytes": 10423
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/mk/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "1c0e754b712ce349d7dbd05c538421d4135b2d62d78e96b9d69ffb73fbbe0eb9",
+        "sha256_in_prefix": "1c0e754b712ce349d7dbd05c538421d4135b2d62d78e96b9d69ffb73fbbe0eb9",
+        "size_in_bytes": 12121
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/nb/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "5348d86c54be2b18f4f1385bedf17ca0cada6f94b69eed65865421b140a98be0",
+        "sha256_in_prefix": "5348d86c54be2b18f4f1385bedf17ca0cada6f94b69eed65865421b140a98be0",
+        "size_in_bytes": 9928
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ne_NP/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "ee885505379e298a0f893170600d787d2c64a91831ec6059020ca30e4d793930",
+        "sha256_in_prefix": "ee885505379e298a0f893170600d787d2c64a91831ec6059020ca30e4d793930",
+        "size_in_bytes": 15636
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/nl/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "69de48eed7a070d5bc14eaa7f44d4efdcaabb4776f9641282af1c4a248d1a90a",
+        "sha256_in_prefix": "69de48eed7a070d5bc14eaa7f44d4efdcaabb4776f9641282af1c4a248d1a90a",
+        "size_in_bytes": 10163
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/nn/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "de84109c7dd417d9c7993b23de9aafe51da26a4bfec1d8f2d24fc442f6e8e1db",
+        "sha256_in_prefix": "de84109c7dd417d9c7993b23de9aafe51da26a4bfec1d8f2d24fc442f6e8e1db",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/no/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "669811d3e5cc83ba105de4bd43a3dd864d58f06ea15e7415c75c778aff32000e",
+        "sha256_in_prefix": "669811d3e5cc83ba105de4bd43a3dd864d58f06ea15e7415c75c778aff32000e",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/pl/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "d2673d96d667acbeb4f93db238b6af187f03c119c437dc2ef1af3fcc1e519201",
+        "sha256_in_prefix": "d2673d96d667acbeb4f93db238b6af187f03c119c437dc2ef1af3fcc1e519201",
+        "size_in_bytes": 10673
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/pt/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "8f5639b1fb2ab5061510a5b16eb3ba0091f0fe17e1e5a76873061d695c86f426",
+        "sha256_in_prefix": "8f5639b1fb2ab5061510a5b16eb3ba0091f0fe17e1e5a76873061d695c86f426",
+        "size_in_bytes": 10382
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/pt_BR/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "9a7d480a57ed79633d27763abafcb96ab291ec077313086faadc355ef769b9ec",
+        "sha256_in_prefix": "9a7d480a57ed79633d27763abafcb96ab291ec077313086faadc355ef769b9ec",
+        "size_in_bytes": 10397
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/pt_PT/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "b029331e8b1690884d6d1963256bcae31fd495b48add2362724372a75edc3a93",
+        "sha256_in_prefix": "b029331e8b1690884d6d1963256bcae31fd495b48add2362724372a75edc3a93",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ro/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "08469be99242ef1785acddafe942a40d635e81791b1a914165259e9e8d2a374c",
+        "sha256_in_prefix": "08469be99242ef1785acddafe942a40d635e81791b1a914165259e9e8d2a374c",
+        "size_in_bytes": 10701
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ru/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "23188eb5163f5005544fa22ce06874f691a3ee42f2a811da50987b4b7ba245c2",
+        "sha256_in_prefix": "23188eb5163f5005544fa22ce06874f691a3ee42f2a811da50987b4b7ba245c2",
+        "size_in_bytes": 13160
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/ru_RU/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "02664f2fbff1fb5053f4239f103022b6fca15ef91679820d8578f586dca1ab48",
+        "sha256_in_prefix": "02664f2fbff1fb5053f4239f103022b6fca15ef91679820d8578f586dca1ab48",
+        "size_in_bytes": 5208
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/sk/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "84f5d7e748a323ad5aad41958cc844873fd2fb366a0355a650d8d310952023c2",
+        "sha256_in_prefix": "84f5d7e748a323ad5aad41958cc844873fd2fb366a0355a650d8d310952023c2",
+        "size_in_bytes": 9164
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/sl/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "ffa2214f226678e6fbdde3214a6795055a0acedc4143595d9f0113fcdfab4fa8",
+        "sha256_in_prefix": "ffa2214f226678e6fbdde3214a6795055a0acedc4143595d9f0113fcdfab4fa8",
+        "size_in_bytes": 9985
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/sv/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "395ddc11489a7f09cbc1eb0d3a51ebde1d1fbabdbd18954c1470146147481c17",
+        "sha256_in_prefix": "395ddc11489a7f09cbc1eb0d3a51ebde1d1fbabdbd18954c1470146147481c17",
+        "size_in_bytes": 10204
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/th/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "14724a00349e61655dbec436f398f3ffceb9bf351e94722a93149ae1048b94ec",
+        "sha256_in_prefix": "14724a00349e61655dbec436f398f3ffceb9bf351e94722a93149ae1048b94ec",
+        "size_in_bytes": 8880
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/tr/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "509101ce7c969d19d52a6467e7a33000673bb34140713a065e677e3be93ee7c8",
+        "sha256_in_prefix": "509101ce7c969d19d52a6467e7a33000673bb34140713a065e677e3be93ee7c8",
+        "size_in_bytes": 10073
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/tr_TR/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "366def9addfcaf70f129d97602cb719f2fc4e08124265843933629c228a8ecd4",
+        "sha256_in_prefix": "366def9addfcaf70f129d97602cb719f2fc4e08124265843933629c228a8ecd4",
+        "size_in_bytes": 10292
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/uk/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "7d69ab39f354b1a82ff63b087d0ccfe1061044a52e802693062b517ef1beee08",
+        "sha256_in_prefix": "7d69ab39f354b1a82ff63b087d0ccfe1061044a52e802693062b517ef1beee08",
+        "size_in_bytes": 13245
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/vi/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "fd37a454f897b503f41ec1ebaadd12e5f6baebd02ea30e44683b2fa22994ccf6",
+        "sha256_in_prefix": "fd37a454f897b503f41ec1ebaadd12e5f6baebd02ea30e44683b2fa22994ccf6",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/zh_CN/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "2bdc6b2679f98723b974ceecbde61a8e9878f55bdea28f6404bc6bb3d9f25df4",
+        "sha256_in_prefix": "2bdc6b2679f98723b974ceecbde61a8e9878f55bdea28f6404bc6bb3d9f25df4",
+        "size_in_bytes": 9915
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/zh_Hans/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "1959a75b7afe8c2ab2965985f3bc39b3118f2c0de9e3d05a4b49f4b9f46ab08f",
+        "sha256_in_prefix": "1959a75b7afe8c2ab2965985f3bc39b3118f2c0de9e3d05a4b49f4b9f46ab08f",
+        "size_in_bytes": 9938
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/zh_Hant/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "7d912b02ad6db0db304b255784c9bde8052a40cdc8c0865aadb74b4d60e1bbae",
+        "sha256_in_prefix": "7d912b02ad6db0db304b255784c9bde8052a40cdc8c0865aadb74b4d60e1bbae",
+        "size_in_bytes": 4809
+      },
+      {
+        "_path": "site-packages/rest_framework/locale/zh_TW/LC_MESSAGES/django.mo",
+        "path_type": "hardlink",
+        "sha256": "c7f05afc640bcbeb083184517b1d241a7f7364acd8e4bf32ebd4926361dab195",
+        "sha256_in_prefix": "c7f05afc640bcbeb083184517b1d241a7f7364acd8e4bf32ebd4926361dab195",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "site-packages/rest_framework/management/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/management/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/management/commands/generateschema.py",
+        "path_type": "hardlink",
+        "sha256": "7a098236ed5e5f20f11fecc37f8ebaaa395c90d556aec73b98c315d6e6682b4c",
+        "sha256_in_prefix": "7a098236ed5e5f20f11fecc37f8ebaaa395c90d556aec73b98c315d6e6682b4c",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "site-packages/rest_framework/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "11e10f31ef2df93b5e7862992f0a6264b27e289c1b601f18aec9010789afcea1",
+        "sha256_in_prefix": "11e10f31ef2df93b5e7862992f0a6264b27e289c1b601f18aec9010789afcea1",
+        "size_in_bytes": 5867
+      },
+      {
+        "_path": "site-packages/rest_framework/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "6ea765cfaa742658513480377318633e4636e1d3d358c70cb2f5947f1f8c7b0b",
+        "sha256_in_prefix": "6ea765cfaa742658513480377318633e4636e1d3d358c70cb2f5947f1f8c7b0b",
+        "size_in_bytes": 2937
+      },
+      {
+        "_path": "site-packages/rest_framework/negotiation.py",
+        "path_type": "hardlink",
+        "sha256": "f9b1046b172ca31c9646f0c5773c99de3c6b6b2b52aa30552fce333f33b9512c",
+        "sha256_in_prefix": "f9b1046b172ca31c9646f0c5773c99de3c6b6b2b52aa30552fce333f33b9512c",
+        "size_in_bytes": 4044
+      },
+      {
+        "_path": "site-packages/rest_framework/pagination.py",
+        "path_type": "hardlink",
+        "sha256": "f8ed8864f94f41913f3bef0a715702e1ecc77b2c2804290aa372e05ffe801f03",
+        "sha256_in_prefix": "f8ed8864f94f41913f3bef0a715702e1ecc77b2c2804290aa372e05ffe801f03",
+        "size_in_bytes": 35676
+      },
+      {
+        "_path": "site-packages/rest_framework/parsers.py",
+        "path_type": "hardlink",
+        "sha256": "600db588977248edf75cb957cbe498f32c72a068a5190c95bccf6a115724e205",
+        "sha256_in_prefix": "600db588977248edf75cb957cbe498f32c72a068a5190c95bccf6a115724e205",
+        "size_in_bytes": 7748
+      },
+      {
+        "_path": "site-packages/rest_framework/permissions.py",
+        "path_type": "hardlink",
+        "sha256": "2cc77f72e1a94ef4c9221b6505273d9cf4d820e837bc39c32f568273e1eb3c2f",
+        "sha256_in_prefix": "2cc77f72e1a94ef4c9221b6505273d9cf4d820e837bc39c32f568273e1eb3c2f",
+        "size_in_bytes": 9234
+      },
+      {
+        "_path": "site-packages/rest_framework/relations.py",
+        "path_type": "hardlink",
+        "sha256": "f5c7988ac505e89341dfc61a9e373575536b954e77750ea684fde0afa3515447",
+        "sha256_in_prefix": "f5c7988ac505e89341dfc61a9e373575536b954e77750ea684fde0afa3515447",
+        "size_in_bytes": 21171
+      },
+      {
+        "_path": "site-packages/rest_framework/renderers.py",
+        "path_type": "hardlink",
+        "sha256": "956de45b5d13a2a2fd5446b29570deb1d2ce385b7a39db701e8a4d650ddb384f",
+        "sha256_in_prefix": "956de45b5d13a2a2fd5446b29570deb1d2ce385b7a39db701e8a4d650ddb384f",
+        "size_in_bytes": 40284
+      },
+      {
+        "_path": "site-packages/rest_framework/request.py",
+        "path_type": "hardlink",
+        "sha256": "5b7f37e66c5354598cbd30e479f2699b405cc4b0e8641fd0eedff60a3b81a5a5",
+        "sha256_in_prefix": "5b7f37e66c5354598cbd30e479f2699b405cc4b0e8641fd0eedff60a3b81a5a5",
+        "size_in_bytes": 15264
+      },
+      {
+        "_path": "site-packages/rest_framework/response.py",
+        "path_type": "hardlink",
+        "sha256": "d6cbeff161a238e81389705e7f78dfb18bb7acdfe5ac03ba8f6fc81ca7669f9d",
+        "sha256_in_prefix": "d6cbeff161a238e81389705e7f78dfb18bb7acdfe5ac03ba8f6fc81ca7669f9d",
+        "size_in_bytes": 3433
+      },
+      {
+        "_path": "site-packages/rest_framework/reverse.py",
+        "path_type": "hardlink",
+        "sha256": "bde2cc3eaa34bfcd4d3f45fb27f23aac2aad8ab2660a7278f8c9b7fa53a005b6",
+        "sha256_in_prefix": "bde2cc3eaa34bfcd4d3f45fb27f23aac2aad8ab2660a7278f8c9b7fa53a005b6",
+        "size_in_bytes": 2144
+      },
+      {
+        "_path": "site-packages/rest_framework/routers.py",
+        "path_type": "hardlink",
+        "sha256": "3a1a964c3afca20cafac7bbfffe1419ede59e82c42363b363acf1a8dd6450991",
+        "sha256_in_prefix": "3a1a964c3afca20cafac7bbfffe1419ede59e82c42363b363acf1a8dd6450991",
+        "size_in_bytes": 12211
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d42920ab3196d3ca581843c5aab50ee2a8db5288437dc0dfd9ba057bbf93552c",
+        "sha256_in_prefix": "d42920ab3196d3ca581843c5aab50ee2a8db5288437dc0dfd9ba057bbf93552c",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/coreapi.py",
+        "path_type": "hardlink",
+        "sha256": "0e7d86a140684fd80a36af10a265db78d25e44b5d57be2cb0a8de3290f19e9a1",
+        "sha256_in_prefix": "0e7d86a140684fd80a36af10a265db78d25e44b5d57be2cb0a8de3290f19e9a1",
+        "size_in_bytes": 20829
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/generators.py",
+        "path_type": "hardlink",
+        "sha256": "1c9ef51708861448fc1230ddd1fed5cd62369ac4d31873d314ed311729da86f5",
+        "sha256_in_prefix": "1c9ef51708861448fc1230ddd1fed5cd62369ac4d31873d314ed311729da86f5",
+        "size_in_bytes": 7995
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/inspectors.py",
+        "path_type": "hardlink",
+        "sha256": "80ddad41417c40c99cb3f763cc36eabc326d6d960c17425dcc50278ef5f06c42",
+        "sha256_in_prefix": "80ddad41417c40c99cb3f763cc36eabc326d6d960c17425dcc50278ef5f06c42",
+        "size_in_bytes": 4196
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/openapi.py",
+        "path_type": "hardlink",
+        "sha256": "4c5433e5abbc625b439554b8c73ac1966922dbb93284c5cb295caa8097466509",
+        "sha256_in_prefix": "4c5433e5abbc625b439554b8c73ac1966922dbb93284c5cb295caa8097466509",
+        "size_in_bytes": 26826
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8861897d2ed2f8cc13bebda03f2b2dc6b10edd36916fec747e9c948c35a4916f",
+        "sha256_in_prefix": "8861897d2ed2f8cc13bebda03f2b2dc6b10edd36916fec747e9c948c35a4916f",
+        "size_in_bytes": 1195
+      },
+      {
+        "_path": "site-packages/rest_framework/schemas/views.py",
+        "path_type": "hardlink",
+        "sha256": "7a9bf5e9d49d0485299aa38c286bd2eb5c2d4822619734f52591fce30e10347c",
+        "sha256_in_prefix": "7a9bf5e9d49d0485299aa38c286bd2eb5c2d4822619734f52591fce30e10347c",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "site-packages/rest_framework/serializers.py",
+        "path_type": "hardlink",
+        "sha256": "92a41b67cb607aa02ff7563ab06ef5220fd807e39a56be2f7a12bb42352d598f",
+        "sha256_in_prefix": "92a41b67cb607aa02ff7563ab06ef5220fd807e39a56be2f7a12bb42352d598f",
+        "size_in_bytes": 65930
+      },
+      {
+        "_path": "site-packages/rest_framework/settings.py",
+        "path_type": "hardlink",
+        "sha256": "ac0244ce376d86e1525c1cc3c965cea7f4c781059af3bc0f48a0633d919b7b78",
+        "sha256_in_prefix": "ac0244ce376d86e1525c1cc3c965cea7f4c781059af3bc0f48a0633d919b7b78",
+        "size_in_bytes": 7808
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/bootstrap-theme.min.css",
+        "path_type": "hardlink",
+        "sha256": "f2e1cc227d6bbb4192e4a3becdfed971c7fc530d76200e43add11c98cb962c53",
+        "sha256_in_prefix": "f2e1cc227d6bbb4192e4a3becdfed971c7fc530d76200e43add11c98cb962c53",
+        "size_in_bytes": 23411
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/bootstrap-theme.min.css.map",
+        "path_type": "hardlink",
+        "sha256": "5ebabc49db378681cf6412aa00bd3b7a111a09f2815231f4b56e296fac486130",
+        "sha256_in_prefix": "5ebabc49db378681cf6412aa00bd3b7a111a09f2815231f4b56e296fac486130",
+        "size_in_bytes": 75600
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/bootstrap-tweaks.css",
+        "path_type": "hardlink",
+        "sha256": "c17b408ef0078c071f260ffa1a2fca81c5807b972e335febefd9eb9bd3fc3e05",
+        "sha256_in_prefix": "c17b408ef0078c071f260ffa1a2fca81c5807b972e335febefd9eb9bd3fc3e05",
+        "size_in_bytes": 3385
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "6d92dfc1700fd38cd130ad818e23bc8aef697f815b2ea5face2b5dfad22f2e11",
+        "sha256_in_prefix": "6d92dfc1700fd38cd130ad818e23bc8aef697f815b2ea5face2b5dfad22f2e11",
+        "size_in_bytes": 121457
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/bootstrap.min.css.map",
+        "path_type": "hardlink",
+        "sha256": "78b58c9ebfd42ec2c61bc4fdf46a5df998e6cd907c773076a0a6e8f5686bafc3",
+        "sha256_in_prefix": "78b58c9ebfd42ec2c61bc4fdf46a5df998e6cd907c773076a0a6e8f5686bafc3",
+        "size_in_bytes": 540434
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/default.css",
+        "path_type": "hardlink",
+        "sha256": "116577e6db2d0f99b419ecc61b453915af0eff8206b0bf3f9e87897719c1b37b",
+        "sha256_in_prefix": "116577e6db2d0f99b419ecc61b453915af0eff8206b0bf3f9e87897719c1b37b",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/font-awesome-4.0.3.css",
+        "path_type": "hardlink",
+        "sha256": "3083e8d3b21ddc3f0e6d65ec3580aa6edfaadca5d9737d9caa27e6a233e1ccf3",
+        "sha256_in_prefix": "3083e8d3b21ddc3f0e6d65ec3580aa6edfaadca5d9737d9caa27e6a233e1ccf3",
+        "size_in_bytes": 21658
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/css/prettify.css",
+        "path_type": "hardlink",
+        "sha256": "f9932af1e67a6e5105b71715b9d335873bf8805c01c2a9603e31e96cc4a95819",
+        "sha256_in_prefix": "f9932af1e67a6e5105b71715b9d335873bf8805c01c2a9603e31e96cc4a95819",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/css/base.css",
+        "path_type": "hardlink",
+        "sha256": "7d9f4eb388801770c1ab7030c3ca9b6d1ca9c7a7e4195ffe3e3c50f18aacb0ce",
+        "sha256_in_prefix": "7d9f4eb388801770c1ab7030c3ca9b6d1ca9c7a7e4195ffe3e3c50f18aacb0ce",
+        "size_in_bytes": 6156
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/css/highlight.css",
+        "path_type": "hardlink",
+        "sha256": "87ee1de1b0c5b4e21de0f90be3105797e5ed45f6afe3b07c70f501a185a57373",
+        "sha256_in_prefix": "87ee1de1b0c5b4e21de0f90be3105797e5ed45f6afe3b07c70f501a185a57373",
+        "size_in_bytes": 1682
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/css/jquery.json-view.min.css",
+        "path_type": "hardlink",
+        "sha256": "c38fe1128cf5f4a93f7c2eee2dcb751733c4de0108bcdba52b276fef93c5c9ec",
+        "sha256_in_prefix": "c38fe1128cf5f4a93f7c2eee2dcb751733c4de0108bcdba52b276fef93c5c9ec",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/img/favicon.ico",
+        "path_type": "hardlink",
+        "sha256": "5b0d9b363197c84db2f4578eeac5bb624b2a176090f3da5d4eb92c8856cfe27e",
+        "sha256_in_prefix": "5b0d9b363197c84db2f4578eeac5bb624b2a176090f3da5d4eb92c8856cfe27e",
+        "size_in_bytes": 5430
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/img/grid.png",
+        "path_type": "hardlink",
+        "sha256": "6e2a58503494a708105ac646d3af5c08c8c890325bb781a257d10f91ff968a9c",
+        "sha256_in_prefix": "6e2a58503494a708105ac646d3af5c08c8c890325bb781a257d10f91ff968a9c",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/js/api.js",
+        "path_type": "hardlink",
+        "sha256": "499229b71d4a13728390c6df6667383928392523644cbb106a53dd6fe3709146",
+        "sha256_in_prefix": "499229b71d4a13728390c6df6667383928392523644cbb106a53dd6fe3709146",
+        "size_in_bytes": 10391
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/js/highlight.pack.js",
+        "path_type": "hardlink",
+        "sha256": "4e956cd7a60fc91c634ecd76da622c6e84d53a9a1351bd409b39419ce1e35380",
+        "sha256_in_prefix": "4e956cd7a60fc91c634ecd76da622c6e84d53a9a1351bd409b39419ce1e35380",
+        "size_in_bytes": 300764
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/docs/js/jquery.json-view.min.js",
+        "path_type": "hardlink",
+        "sha256": "c5463ba4931e3c3b503e1f0aad658ff06730169355267e4084b6d7ada556bd96",
+        "sha256_in_prefix": "c5463ba4931e3c3b503e1f0aad658ff06730169355267e4084b6d7ada556bd96",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.eot",
+        "path_type": "hardlink",
+        "sha256": "39e237c07403e62f00bd6ddf0b59d3349c7bd3869250aaadc389419db6aa40ef",
+        "sha256_in_prefix": "39e237c07403e62f00bd6ddf0b59d3349c7bd3869250aaadc389419db6aa40ef",
+        "size_in_bytes": 38205
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.svg",
+        "path_type": "hardlink",
+        "sha256": "9bf1cf619b8ecb6314009081a848c37a69fbd07b4a2a7cde339f6342b8eba26e",
+        "sha256_in_prefix": "9bf1cf619b8ecb6314009081a848c37a69fbd07b4a2a7cde339f6342b8eba26e",
+        "size_in_bytes": 202148
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.ttf",
+        "path_type": "hardlink",
+        "sha256": "6b49348ad53886d09ce4c32fa146e899c820de3f85a8dd3704a0624eb3bf7fa1",
+        "sha256_in_prefix": "6b49348ad53886d09ce4c32fa146e899c820de3f85a8dd3704a0624eb3bf7fa1",
+        "size_in_bytes": 80652
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/fontawesome-webfont.woff",
+        "path_type": "hardlink",
+        "sha256": "0fd28fece9ebd606b8b071460ebd3fc2ed7bc7a66ef91c8834f11dfacab4a849",
+        "sha256_in_prefix": "0fd28fece9ebd606b8b071460ebd3fc2ed7bc7a66ef91c8834f11dfacab4a849",
+        "size_in_bytes": 44432
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.eot",
+        "path_type": "hardlink",
+        "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "sha256_in_prefix": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "size_in_bytes": 20127
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.svg",
+        "path_type": "hardlink",
+        "sha256": "0688333129cbe4acc8baea3b35f8015287078f3035b9f56768389dd9cf8a0d91",
+        "sha256_in_prefix": "0688333129cbe4acc8baea3b35f8015287078f3035b9f56768389dd9cf8a0d91",
+        "size_in_bytes": 108738
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.ttf",
+        "path_type": "hardlink",
+        "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "sha256_in_prefix": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "size_in_bytes": 45404
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.woff",
+        "path_type": "hardlink",
+        "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "sha256_in_prefix": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "size_in_bytes": 23424
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/fonts/glyphicons-halflings-regular.woff2",
+        "path_type": "hardlink",
+        "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "sha256_in_prefix": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "size_in_bytes": 18028
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/img/glyphicons-halflings-white.png",
+        "path_type": "hardlink",
+        "sha256": "f0e0d95a9c8abcdfabf46348e2d4285829bb0491f5f6af0e05af52bffb6324c4",
+        "sha256_in_prefix": "f0e0d95a9c8abcdfabf46348e2d4285829bb0491f5f6af0e05af52bffb6324c4",
+        "size_in_bytes": 8777
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/img/glyphicons-halflings.png",
+        "path_type": "hardlink",
+        "sha256": "1bd51b53278447c1db33f00c4773e711db21e557ecdd26d9b9ae96ca993f05e2",
+        "sha256_in_prefix": "1bd51b53278447c1db33f00c4773e711db21e557ecdd26d9b9ae96ca993f05e2",
+        "size_in_bytes": 12762
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/img/grid.png",
+        "path_type": "hardlink",
+        "sha256": "6e2a58503494a708105ac646d3af5c08c8c890325bb781a257d10f91ff968a9c",
+        "sha256_in_prefix": "6e2a58503494a708105ac646d3af5c08c8c890325bb781a257d10f91ff968a9c",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/ajax-form.js",
+        "path_type": "hardlink",
+        "sha256": "a45fecd840a653ea3a894eaf298caedd5333aa7d1eb110e00e947bb5a48c5076",
+        "sha256_in_prefix": "a45fecd840a653ea3a894eaf298caedd5333aa7d1eb110e00e947bb5a48c5076",
+        "size_in_bytes": 3597
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe",
+        "sha256_in_prefix": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe",
+        "size_in_bytes": 39680
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/coreapi-0.1.1.js",
+        "path_type": "hardlink",
+        "sha256": "fe0cf23e7fb6731d1681f8ef8ffb655213dfe2568a9f361b82472bfee3465ba1",
+        "sha256_in_prefix": "fe0cf23e7fb6731d1681f8ef8ffb655213dfe2568a9f361b82472bfee3465ba1",
+        "size_in_bytes": 157600
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/csrf.js",
+        "path_type": "hardlink",
+        "sha256": "792d1b4b87cc4512e05d062a826b1a0cbb3a476624963e4f9192c8502936bdd8",
+        "sha256_in_prefix": "792d1b4b87cc4512e05d062a826b1a0cbb3a476624963e4f9192c8502936bdd8",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/default.js",
+        "path_type": "hardlink",
+        "sha256": "98938fdc9303c909d1497eb45ff4f85a0b58cce04d0d8a6a7356613940bce623",
+        "sha256_in_prefix": "98938fdc9303c909d1497eb45ff4f85a0b58cce04d0d8a6a7356613940bce623",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/jquery-3.5.1.min.js",
+        "path_type": "hardlink",
+        "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+        "sha256_in_prefix": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+        "size_in_bytes": 89476
+      },
+      {
+        "_path": "site-packages/rest_framework/static/rest_framework/js/prettify-min.js",
+        "path_type": "hardlink",
+        "sha256": "e2e576e3bc607cd179ff511947010f645d3441a35313aec0dbd06c4437f83b77",
+        "sha256_in_prefix": "e2e576e3bc607cd179ff511947010f645d3441a35313aec0dbd06c4437f83b77",
+        "size_in_bytes": 13632
+      },
+      {
+        "_path": "site-packages/rest_framework/status.py",
+        "path_type": "hardlink",
+        "sha256": "8098efb563d511ed80e1258843da2523afcc4e144981227528349bfc8b5188ec",
+        "sha256_in_prefix": "8098efb563d511ed80e1258843da2523afcc4e144981227528349bfc8b5188ec",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/admin.html",
+        "path_type": "hardlink",
+        "sha256": "81fefff9dd0480562ab86329a1802262320b1acbb0f22c200eaa84228a7e650c",
+        "sha256_in_prefix": "81fefff9dd0480562ab86329a1802262320b1acbb0f22c200eaa84228a7e650c",
+        "size_in_bytes": 10904
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/admin/detail.html",
+        "path_type": "hardlink",
+        "sha256": "fce37285b44adf677b22c53199454a4025a3c7366ac13fb32b6bb50a007896f9",
+        "sha256_in_prefix": "fce37285b44adf677b22c53199454a4025a3c7366ac13fb32b6bb50a007896f9",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/admin/dict_value.html",
+        "path_type": "hardlink",
+        "sha256": "2a274b12edfc92abcf1849671438e240c87bdb1b234f94aadcbe20721aea329b",
+        "sha256_in_prefix": "2a274b12edfc92abcf1849671438e240c87bdb1b234f94aadcbe20721aea329b",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/admin/list.html",
+        "path_type": "hardlink",
+        "sha256": "b05a2ac7c19e2f6805674631df976ae83557120408200158940f21fbae451103",
+        "sha256_in_prefix": "b05a2ac7c19e2f6805674631df976ae83557120408200158940f21fbae451103",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/admin/list_value.html",
+        "path_type": "hardlink",
+        "sha256": "67d5664b57f79b09392f2a6003c1c0be88153db0dad3d84005adfcf40631402a",
+        "sha256_in_prefix": "67d5664b57f79b09392f2a6003c1c0be88153db0dad3d84005adfcf40631402a",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/admin/simple_list_value.html",
+        "path_type": "hardlink",
+        "sha256": "77d71582aca280d6b42b45bb0983cd19cbd102acb933e64903392003e025ef44",
+        "sha256_in_prefix": "77d71582aca280d6b42b45bb0983cd19cbd102acb933e64903392003e025ef44",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/api.html",
+        "path_type": "hardlink",
+        "sha256": "e86929a732b5479d328c0559268a859d1fc57469590697dfb43da6d9634f4d53",
+        "sha256_in_prefix": "e86929a732b5479d328c0559268a859d1fc57469590697dfb43da6d9634f4d53",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/base.html",
+        "path_type": "hardlink",
+        "sha256": "c88ebe8f85c17a51b1a80746afaf73c44567aaedebb0676a55c72f93c62cc848",
+        "sha256_in_prefix": "c88ebe8f85c17a51b1a80746afaf73c44567aaedebb0676a55c72f93c62cc848",
+        "size_in_bytes": 13945
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/auth/basic.html",
+        "path_type": "hardlink",
+        "sha256": "1ac2d1c227943b0c6f411488e27473d8f615abbd9eecd2c45e2a6b9a84dbcec2",
+        "sha256_in_prefix": "1ac2d1c227943b0c6f411488e27473d8f615abbd9eecd2c45e2a6b9a84dbcec2",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/auth/session.html",
+        "path_type": "hardlink",
+        "sha256": "8e1b4c78b83a2eae723dbda7a0e69b523eb55003907bef8d40611863059963f1",
+        "sha256_in_prefix": "8e1b4c78b83a2eae723dbda7a0e69b523eb55003907bef8d40611863059963f1",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/auth/token.html",
+        "path_type": "hardlink",
+        "sha256": "d0a715490f30d99bce3bc036a0d953c2a998c89d8efb5d9e5992fe342066d517",
+        "sha256_in_prefix": "d0a715490f30d99bce3bc036a0d953c2a998c89d8efb5d9e5992fe342066d517",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/document.html",
+        "path_type": "hardlink",
+        "sha256": "afb6d6c019edd8d19a3f75db001560fb2c42891910b81dfffa787570ad56af93",
+        "sha256_in_prefix": "afb6d6c019edd8d19a3f75db001560fb2c42891910b81dfffa787570ad56af93",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/error.html",
+        "path_type": "hardlink",
+        "sha256": "02d0f2d596d2506f41fe69b8ef44fc093635c3d3f1ccb48990160da0902e5e8b",
+        "sha256_in_prefix": "02d0f2d596d2506f41fe69b8ef44fc093635c3d3f1ccb48990160da0902e5e8b",
+        "size_in_bytes": 1850
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/index.html",
+        "path_type": "hardlink",
+        "sha256": "74165085ccbd6f33e6b5b901ad6249a6c85b8164b209352c65b964e6318793e7",
+        "sha256_in_prefix": "74165085ccbd6f33e6b5b901ad6249a6c85b8164b209352c65b964e6318793e7",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/interact.html",
+        "path_type": "hardlink",
+        "sha256": "ffcc9a4a8f43516f1e4551fe2841f9cc927c30122523940cfda8d63dbe32ac8f",
+        "sha256_in_prefix": "ffcc9a4a8f43516f1e4551fe2841f9cc927c30122523940cfda8d63dbe32ac8f",
+        "size_in_bytes": 1831
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/langs/javascript-intro.html",
+        "path_type": "hardlink",
+        "sha256": "4ce2e37029f2034318239c3df49b60da637bc35c235f3d257d233c6f4c1a6d9e",
+        "sha256_in_prefix": "4ce2e37029f2034318239c3df49b60da637bc35c235f3d257d233c6f4c1a6d9e",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/langs/javascript.html",
+        "path_type": "hardlink",
+        "sha256": "bf2d4ddab3114932998c4a39999feb229da0e7b4d26bd3eeb875f37a086992c9",
+        "sha256_in_prefix": "bf2d4ddab3114932998c4a39999feb229da0e7b4d26bd3eeb875f37a086992c9",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/langs/python-intro.html",
+        "path_type": "hardlink",
+        "sha256": "2c1a4354df6a90e3b922d7a3e0cea09785b29c1e10d82a49fd912d8b57c063c2",
+        "sha256_in_prefix": "2c1a4354df6a90e3b922d7a3e0cea09785b29c1e10d82a49fd912d8b57c063c2",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/langs/python.html",
+        "path_type": "hardlink",
+        "sha256": "cb6e24760d407510c05a5da7bba524b2b5cc8db31341c7535ee4694ce5d2209a",
+        "sha256_in_prefix": "cb6e24760d407510c05a5da7bba524b2b5cc8db31341c7535ee4694ce5d2209a",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/langs/shell-intro.html",
+        "path_type": "hardlink",
+        "sha256": "4d0a3e63692c8f64fd933b2610d1fb30407532df78d305bde3500619b2118d51",
+        "sha256_in_prefix": "4d0a3e63692c8f64fd933b2610d1fb30407532df78d305bde3500619b2118d51",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/langs/shell.html",
+        "path_type": "hardlink",
+        "sha256": "8dc44b1a7dc4bb45dcfa5afb9461548fed73d1ef7074cc1f6c5222dc2b3c995e",
+        "sha256_in_prefix": "8dc44b1a7dc4bb45dcfa5afb9461548fed73d1ef7074cc1f6c5222dc2b3c995e",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/link.html",
+        "path_type": "hardlink",
+        "sha256": "213692dd6deca8bee0387c15bed322d9f72e113bf579585079d9643ac4fba538",
+        "sha256_in_prefix": "213692dd6deca8bee0387c15bed322d9f72e113bf579585079d9643ac4fba538",
+        "size_in_bytes": 4624
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/docs/sidebar.html",
+        "path_type": "hardlink",
+        "sha256": "4bf0fc4dbc68d3c7db9954fd16611cf0da351124b524c2480f8ab9499473e596",
+        "sha256_in_prefix": "4bf0fc4dbc68d3c7db9954fd16611cf0da351124b524c2480f8ab9499473e596",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/filters/base.html",
+        "path_type": "hardlink",
+        "sha256": "3a30486dddbda2703647e8949a4c2b957c3437908922c53514ea6c109f992518",
+        "sha256_in_prefix": "3a30486dddbda2703647e8949a4c2b957c3437908922c53514ea6c109f992518",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/filters/ordering.html",
+        "path_type": "hardlink",
+        "sha256": "c2200ecaf9a3ca93380c918c3166dd0f8225dba67c3fb27f1dc22eae3bf7c610",
+        "sha256_in_prefix": "c2200ecaf9a3ca93380c918c3166dd0f8225dba67c3fb27f1dc22eae3bf7c610",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/filters/search.html",
+        "path_type": "hardlink",
+        "sha256": "acedfff99d90548a26f56544af1329ad89feb0911ed629d71c7e28006fa3b969",
+        "sha256_in_prefix": "acedfff99d90548a26f56544af1329ad89feb0911ed629d71c7e28006fa3b969",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/checkbox.html",
+        "path_type": "hardlink",
+        "sha256": "b7c1095b708872e0dbd8d49aed51250b38f8f5bd12d51719712ee67643845ccc",
+        "sha256_in_prefix": "b7c1095b708872e0dbd8d49aed51250b38f8f5bd12d51719712ee67643845ccc",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/checkbox_multiple.html",
+        "path_type": "hardlink",
+        "sha256": "89456a6ddc50dfb89e8d4b5f4f4c7a51e17c45c038b7bd41eb5761890b2a1609",
+        "sha256_in_prefix": "89456a6ddc50dfb89e8d4b5f4f4c7a51e17c45c038b7bd41eb5761890b2a1609",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/dict_field.html",
+        "path_type": "hardlink",
+        "sha256": "560677892aab3cad36554de00e80ee2b4b3325bbbf3c67b1d479d8229631e9aa",
+        "sha256_in_prefix": "560677892aab3cad36554de00e80ee2b4b3325bbbf3c67b1d479d8229631e9aa",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "6d7cbb43fcc118ca44f1aecafb64b125f54332c1d9db8c6788ba02c3c5e6cf28",
+        "sha256_in_prefix": "6d7cbb43fcc118ca44f1aecafb64b125f54332c1d9db8c6788ba02c3c5e6cf28",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/form.html",
+        "path_type": "hardlink",
+        "sha256": "ca8f4f4b6fff97306e612b9ef35d8cc069a2dc74fa9080331ef01005aa890066",
+        "sha256_in_prefix": "ca8f4f4b6fff97306e612b9ef35d8cc069a2dc74fa9080331ef01005aa890066",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/input.html",
+        "path_type": "hardlink",
+        "sha256": "a4e2de59d9e2dc336a6423750dbbe3e710340fe8dd334404a24ff55e92077c11",
+        "sha256_in_prefix": "a4e2de59d9e2dc336a6423750dbbe3e710340fe8dd334404a24ff55e92077c11",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/list_field.html",
+        "path_type": "hardlink",
+        "sha256": "fc195278c6e913cbe99f2a87a7a8e6a2ed9fe38d61aed601bdb7418d8c4979ec",
+        "sha256_in_prefix": "fc195278c6e913cbe99f2a87a7a8e6a2ed9fe38d61aed601bdb7418d8c4979ec",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/list_fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "e56fbdb59f86bd31d1e09947c15743268fb51651faf9c994bb7df1d912ac9e43",
+        "sha256_in_prefix": "e56fbdb59f86bd31d1e09947c15743268fb51651faf9c994bb7df1d912ac9e43",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/radio.html",
+        "path_type": "hardlink",
+        "sha256": "c6980376f756dc5a239c1df1f8ea96cc8892b1d730f6c775cfe83cbd8cfba1f8",
+        "sha256_in_prefix": "c6980376f756dc5a239c1df1f8ea96cc8892b1d730f6c775cfe83cbd8cfba1f8",
+        "size_in_bytes": 1796
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/select.html",
+        "path_type": "hardlink",
+        "sha256": "fc4a30eb6cd430cf55589d373f51e57d3341e2fcaff467ea07d5a361185f4c16",
+        "sha256_in_prefix": "fc4a30eb6cd430cf55589d373f51e57d3341e2fcaff467ea07d5a361185f4c16",
+        "size_in_bytes": 1222
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/select_multiple.html",
+        "path_type": "hardlink",
+        "sha256": "0bff7caa12702d330d7db1419fa9e10f7423769ead707c2af3677c4b7a45c12c",
+        "sha256_in_prefix": "0bff7caa12702d330d7db1419fa9e10f7423769ead707c2af3677c4b7a45c12c",
+        "size_in_bytes": 1229
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/horizontal/textarea.html",
+        "path_type": "hardlink",
+        "sha256": "f26cac86764a1e3a2142db9554f37682671837445330d1a44a1f790842286f1e",
+        "sha256_in_prefix": "f26cac86764a1e3a2142db9554f37682671837445330d1a44a1f790842286f1e",
+        "size_in_bytes": 782
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/checkbox.html",
+        "path_type": "hardlink",
+        "sha256": "ce9527a4a83ea0c67ce37bed996ede73c973c50b6dc06a4513b176be61f1645c",
+        "sha256_in_prefix": "ce9527a4a83ea0c67ce37bed996ede73c973c50b6dc06a4513b176be61f1645c",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/checkbox_multiple.html",
+        "path_type": "hardlink",
+        "sha256": "bc69ddaf4723a3e43eb23eab9f425d1fd2d39f604edbbc6f70a058ed805b2777",
+        "sha256_in_prefix": "bc69ddaf4723a3e43eb23eab9f425d1fd2d39f604edbbc6f70a058ed805b2777",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/dict_field.html",
+        "path_type": "hardlink",
+        "sha256": "e0459117189d2cc49cff691b68fdd571749a4055408df98f8b4d206f7a4788a8",
+        "sha256_in_prefix": "e0459117189d2cc49cff691b68fdd571749a4055408df98f8b4d206f7a4788a8",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "69c0586437a2bf1df76cb34860d2a55c6ff5d580c1b485548a16c57871a6cbc3",
+        "sha256_in_prefix": "69c0586437a2bf1df76cb34860d2a55c6ff5d580c1b485548a16c57871a6cbc3",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/form.html",
+        "path_type": "hardlink",
+        "sha256": "ca8f4f4b6fff97306e612b9ef35d8cc069a2dc74fa9080331ef01005aa890066",
+        "sha256_in_prefix": "ca8f4f4b6fff97306e612b9ef35d8cc069a2dc74fa9080331ef01005aa890066",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/input.html",
+        "path_type": "hardlink",
+        "sha256": "98c5937627c32929e66b6d206bb818a071ae19b1c026ec629c1408ac1aa3b350",
+        "sha256_in_prefix": "98c5937627c32929e66b6d206bb818a071ae19b1c026ec629c1408ac1aa3b350",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/list_field.html",
+        "path_type": "hardlink",
+        "sha256": "6da7d9047430dd8aa52581956b114982d8ffa689fd062b84b8253b594e9af8b3",
+        "sha256_in_prefix": "6da7d9047430dd8aa52581956b114982d8ffa689fd062b84b8253b594e9af8b3",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/list_fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "80f2faf64056f5106afea211bc5adcdba6b46ef16aac269690e9daacde6e26cc",
+        "sha256_in_prefix": "80f2faf64056f5106afea211bc5adcdba6b46ef16aac269690e9daacde6e26cc",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/radio.html",
+        "path_type": "hardlink",
+        "sha256": "9ea8df05971fa458d9f842f268b922a3ec25c397e43c01b53809446c0b319364",
+        "sha256_in_prefix": "9ea8df05971fa458d9f842f268b922a3ec25c397e43c01b53809446c0b319364",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/select.html",
+        "path_type": "hardlink",
+        "sha256": "ac80ee19f18566e73ee425153084677b8c74bc16c083ecff316cf5dfd85526fc",
+        "sha256_in_prefix": "ac80ee19f18566e73ee425153084677b8c74bc16c083ecff316cf5dfd85526fc",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/select_multiple.html",
+        "path_type": "hardlink",
+        "sha256": "df3a3232505614d0d54fbc88fb380dde53153c699638144a07af90cb396ed7be",
+        "sha256_in_prefix": "df3a3232505614d0d54fbc88fb380dde53153c699638144a07af90cb396ed7be",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/inline/textarea.html",
+        "path_type": "hardlink",
+        "sha256": "d19a5ec11f0b0f1f712e8320b39f6bd76010b195676e894d7f83fb12c9c8ac47",
+        "sha256_in_prefix": "d19a5ec11f0b0f1f712e8320b39f6bd76010b195676e894d7f83fb12c9c8ac47",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/login.html",
+        "path_type": "hardlink",
+        "sha256": "9993a1f3c01f2ec8915863e3265bef3a4beebe6310c314f28c666bcdc5e4c654",
+        "sha256_in_prefix": "9993a1f3c01f2ec8915863e3265bef3a4beebe6310c314f28c666bcdc5e4c654",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/login_base.html",
+        "path_type": "hardlink",
+        "sha256": "66c58ab4d583d049b47311e7f9b8e478415379c4cecec2f842efe98003b8f0bd",
+        "sha256_in_prefix": "66c58ab4d583d049b47311e7f9b8e478415379c4cecec2f842efe98003b8f0bd",
+        "size_in_bytes": 2857
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/pagination/numbers.html",
+        "path_type": "hardlink",
+        "sha256": "e9c9c5a429bfc4bbe050293218f52d576ccc801cff9af04986ef7c69859b3a83",
+        "sha256_in_prefix": "e9c9c5a429bfc4bbe050293218f52d576ccc801cff9af04986ef7c69859b3a83",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/pagination/previous_and_next.html",
+        "path_type": "hardlink",
+        "sha256": "b6f55d0f341e017fe6aab7b47a2f0f3be6ef885953984595106a5f3d0f6d9ae7",
+        "sha256_in_prefix": "b6f55d0f341e017fe6aab7b47a2f0f3be6ef885953984595106a5f3d0f6d9ae7",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/raw_data_form.html",
+        "path_type": "hardlink",
+        "sha256": "fbde8ede51d33c0d333f7cead7dc687d8bf34fca0f6e68211d8e43bcffa56883",
+        "sha256_in_prefix": "fbde8ede51d33c0d333f7cead7dc687d8bf34fca0f6e68211d8e43bcffa56883",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/schema.js",
+        "path_type": "hardlink",
+        "sha256": "5052f5c20e00ac60f6800c837ea54d0939b557dff9771bfb9181b2479a016867",
+        "sha256_in_prefix": "5052f5c20e00ac60f6800c837ea54d0939b557dff9771bfb9181b2479a016867",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/checkbox.html",
+        "path_type": "hardlink",
+        "sha256": "e59309345aba111c00234ea21872f99b75e63088139891bbbdac3a59cce34df8",
+        "sha256_in_prefix": "e59309345aba111c00234ea21872f99b75e63088139891bbbdac3a59cce34df8",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/checkbox_multiple.html",
+        "path_type": "hardlink",
+        "sha256": "333253e5dc3ebd5db335a2588262fa5bd953943c7f083195faf03c004116e85b",
+        "sha256_in_prefix": "333253e5dc3ebd5db335a2588262fa5bd953943c7f083195faf03c004116e85b",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/dict_field.html",
+        "path_type": "hardlink",
+        "sha256": "3ea936db258859a5d425886a6021e61b038288a6e1bd43e397e216b02f2e49bb",
+        "sha256_in_prefix": "3ea936db258859a5d425886a6021e61b038288a6e1bd43e397e216b02f2e49bb",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "4d0b1fd725a4b6b3c088f6426afc23c97de9e69f488c59356d03805f29d2ef71",
+        "sha256_in_prefix": "4d0b1fd725a4b6b3c088f6426afc23c97de9e69f488c59356d03805f29d2ef71",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/form.html",
+        "path_type": "hardlink",
+        "sha256": "ca8f4f4b6fff97306e612b9ef35d8cc069a2dc74fa9080331ef01005aa890066",
+        "sha256_in_prefix": "ca8f4f4b6fff97306e612b9ef35d8cc069a2dc74fa9080331ef01005aa890066",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/input.html",
+        "path_type": "hardlink",
+        "sha256": "94b703b3ac62c5eafa79066a8c8e71fb9a538540cd72297d9563584e634e2249",
+        "sha256_in_prefix": "94b703b3ac62c5eafa79066a8c8e71fb9a538540cd72297d9563584e634e2249",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/list_field.html",
+        "path_type": "hardlink",
+        "sha256": "2724807f7e97f165e30ed34e6dbd64a586fafe5257b0ba81e99f7df9cdbf3271",
+        "sha256_in_prefix": "2724807f7e97f165e30ed34e6dbd64a586fafe5257b0ba81e99f7df9cdbf3271",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/list_fieldset.html",
+        "path_type": "hardlink",
+        "sha256": "4ef4b3a6ce14d56413bdbc5646bb9b46f8df883f0a754ca6e30b614d1c6cba68",
+        "sha256_in_prefix": "4ef4b3a6ce14d56413bdbc5646bb9b46f8df883f0a754ca6e30b614d1c6cba68",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/radio.html",
+        "path_type": "hardlink",
+        "sha256": "c4e6293a47f44a40a734ec0b49767d9c992321cf8a6375e7454d7f249c1c77c8",
+        "sha256_in_prefix": "c4e6293a47f44a40a734ec0b49767d9c992321cf8a6375e7454d7f249c1c77c8",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/select.html",
+        "path_type": "hardlink",
+        "sha256": "a9970ed2a3765d921c1b0d51aec7649bc75f56a5b0e2728c55a51eb6d5fe5b79",
+        "sha256_in_prefix": "a9970ed2a3765d921c1b0d51aec7649bc75f56a5b0e2728c55a51eb6d5fe5b79",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/select_multiple.html",
+        "path_type": "hardlink",
+        "sha256": "f7b46db75d454074d7d3293e92c8f775c84c5ceec1042d94e3fe9666aaa97a02",
+        "sha256_in_prefix": "f7b46db75d454074d7d3293e92c8f775c84c5ceec1042d94e3fe9666aaa97a02",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "site-packages/rest_framework/templates/rest_framework/vertical/textarea.html",
+        "path_type": "hardlink",
+        "sha256": "c5a19b8962431885878162d2081a595e37fc1550c1a342ef0aa1e54acfa1e446",
+        "sha256_in_prefix": "c5a19b8962431885878162d2081a595e37fc1550c1a342ef0aa1e54acfa1e446",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "site-packages/rest_framework/templatetags/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/templatetags/rest_framework.py",
+        "path_type": "hardlink",
+        "sha256": "8674b4573442b65fbf037f6257b2d7a8deb243e688db41e4b6d69f6b5b4d7f40",
+        "sha256_in_prefix": "8674b4573442b65fbf037f6257b2d7a8deb243e688db41e4b6d69f6b5b4d7f40",
+        "size_in_bytes": 9870
+      },
+      {
+        "_path": "site-packages/rest_framework/test.py",
+        "path_type": "hardlink",
+        "sha256": "0113b16a3db79fa081d1a4ac5b9c0557b2460c25fc026d8070bec1adf40a799a",
+        "sha256_in_prefix": "0113b16a3db79fa081d1a4ac5b9c0557b2460c25fc026d8070bec1adf40a799a",
+        "size_in_bytes": 15085
+      },
+      {
+        "_path": "site-packages/rest_framework/throttling.py",
+        "path_type": "hardlink",
+        "sha256": "5862a437d8b6bb63b411c490310292a5ab9f64e31922312cb9a478b2b83b70ad",
+        "sha256_in_prefix": "5862a437d8b6bb63b411c490310292a5ab9f64e31922312cb9a478b2b83b70ad",
+        "size_in_bytes": 8067
+      },
+      {
+        "_path": "site-packages/rest_framework/urlpatterns.py",
+        "path_type": "hardlink",
+        "sha256": "8f64b2b4e8bfd3dba1caf66c5502e192f9e573cb25c44dbfe23594c5fd2945bf",
+        "sha256_in_prefix": "8f64b2b4e8bfd3dba1caf66c5502e192f9e573cb25c44dbfe23594c5fd2945bf",
+        "size_in_bytes": 4235
+      },
+      {
+        "_path": "site-packages/rest_framework/urls.py",
+        "path_type": "hardlink",
+        "sha256": "2621294906aee04fa6f318cd8fee2675c3f7a0675fe4c9ecbc57674c593bcb46",
+        "sha256_in_prefix": "2621294906aee04fa6f318cd8fee2675c3f7a0675fe4c9ecbc57674c593bcb46",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/breadcrumbs.py",
+        "path_type": "hardlink",
+        "sha256": "2308e2451c2a4e35e4745478b08b7be8457db9cbf3400f8e462175c88d538f62",
+        "sha256_in_prefix": "2308e2451c2a4e35e4745478b08b7be8457db9cbf3400f8e462175c88d538f62",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/encoders.py",
+        "path_type": "hardlink",
+        "sha256": "8cacdf6d99aa5d7a9e1c065458296ad98e1346bac48c78447d4902882a2298c0",
+        "sha256_in_prefix": "8cacdf6d99aa5d7a9e1c065458296ad98e1346bac48c78447d4902882a2298c0",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/field_mapping.py",
+        "path_type": "hardlink",
+        "sha256": "59d3202087398a39933ad9b88c2805c289e792dace03e30a92705a990f834ae5",
+        "sha256_in_prefix": "59d3202087398a39933ad9b88c2805c289e792dace03e30a92705a990f834ae5",
+        "size_in_bytes": 11516
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "cf6f76198c2bdd6a5c8111029e5a2e850660424fa6ecb86ca105d1cf53b4a7e3",
+        "sha256_in_prefix": "cf6f76198c2bdd6a5c8111029e5a2e850660424fa6ecb86ca105d1cf53b4a7e3",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/html.py",
+        "path_type": "hardlink",
+        "sha256": "d816acd8a4bb76cb7a99d19455244e3e2f515320f7f19d523f36bfd166d5f13b",
+        "sha256_in_prefix": "d816acd8a4bb76cb7a99d19455244e3e2f515320f7f19d523f36bfd166d5f13b",
+        "size_in_bytes": 2294
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/humanize_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "09e0b8416c1f14a767d915c719845aa9570ec29d09f3427f009b27c760a5549d",
+        "sha256_in_prefix": "09e0b8416c1f14a767d915c719845aa9570ec29d09f3427f009b27c760a5549d",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/json.py",
+        "path_type": "hardlink",
+        "sha256": "d6a54e3adfc3b9a42a3b878fb9bfa34f6f65646fbdb0d9862c312a5b8d81019d",
+        "sha256_in_prefix": "d6a54e3adfc3b9a42a3b878fb9bfa34f6f65646fbdb0d9862c312a5b8d81019d",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/mediatypes.py",
+        "path_type": "hardlink",
+        "sha256": "5ac9d4913384a307ff3d61b5b7152acea9c83b37844f3d108cc862109d6be63d",
+        "sha256_in_prefix": "5ac9d4913384a307ff3d61b5b7152acea9c83b37844f3d108cc862109d6be63d",
+        "size_in_bytes": 2494
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/model_meta.py",
+        "path_type": "hardlink",
+        "sha256": "5c0c8cd28b353b79be94a207e90a1ddff93fedbd678d24a0b3f942a20e4a41c1",
+        "sha256_in_prefix": "5c0c8cd28b353b79be94a207e90a1ddff93fedbd678d24a0b3f942a20e4a41c1",
+        "size_in_bytes": 5245
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/representation.py",
+        "path_type": "hardlink",
+        "sha256": "4f08b5d750c10f0fb0599cf6f2dc96e5b2f453105f54263cd0002087767ff452",
+        "sha256_in_prefix": "4f08b5d750c10f0fb0599cf6f2dc96e5b2f453105f54263cd0002087767ff452",
+        "size_in_bytes": 2976
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/serializer_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "711d6cfc7c8eedb19e1416aa0f9d2221db63bd5574fc5622c855dcad0f55f632",
+        "sha256_in_prefix": "711d6cfc7c8eedb19e1416aa0f9d2221db63bd5574fc5622c855dcad0f55f632",
+        "size_in_bytes": 5924
+      },
+      {
+        "_path": "site-packages/rest_framework/utils/urls.py",
+        "path_type": "hardlink",
+        "sha256": "e616a09884d457802f62684544771c3af5f1dd89fe38beb2100d5e613e3f6e4f",
+        "sha256_in_prefix": "e616a09884d457802f62684544771c3af5f1dd89fe38beb2100d5e613e3f6e4f",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "site-packages/rest_framework/validators.py",
+        "path_type": "hardlink",
+        "sha256": "ea50b2f009d0062a494aa0f0175fdce42892e985b4ce85a421de17ec6cc5506f",
+        "sha256_in_prefix": "ea50b2f009d0062a494aa0f0175fdce42892e985b4ce85a421de17ec6cc5506f",
+        "size_in_bytes": 10338
+      },
+      {
+        "_path": "site-packages/rest_framework/versioning.py",
+        "path_type": "hardlink",
+        "sha256": "52a9ddd45294270d3142a1e220a58ccb18547e1b5ab950e7fb7f4b60e01f6b27",
+        "sha256_in_prefix": "52a9ddd45294270d3142a1e220a58ccb18547e1b5ab950e7fb7f4b60e01f6b27",
+        "size_in_bytes": 6791
+      },
+      {
+        "_path": "site-packages/rest_framework/views.py",
+        "path_type": "hardlink",
+        "sha256": "47b4342e41ae8bf692a470e3d147353db934d0b5347b2298fa07b9420aec1ac3",
+        "sha256_in_prefix": "47b4342e41ae8bf692a470e3d147353db934d0b5347b2298fa07b9420aec1ac3",
+        "size_in_bytes": 18777
+      },
+      {
+        "_path": "site-packages/rest_framework/viewsets.py",
+        "path_type": "hardlink",
+        "sha256": "c49a162d4cb583b223c2ad03f4b41d55735afe520bf2308cede7e4b3b92c55c6",
+        "sha256_in_prefix": "c49a162d4cb583b223c2ad03f4b41d55735afe520bf2308cede7e4b3b92c55c6",
+        "size_in_bytes": 9049
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/apps.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/authentication.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/admin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/apps.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/management/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/management/commands/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/management/commands/__pycache__/drf_create_token.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/0001_initial.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/0002_auto_20160226_1747.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/0003_tokenproxy.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/migrations/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/models.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/serializers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/authtoken/__pycache__/views.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/checks.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/decorators.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/documentation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/fields.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/filters.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/generics.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/management/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/management/commands/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/management/commands/__pycache__/generateschema.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/metadata.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/mixins.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/negotiation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/pagination.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/parsers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/permissions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/relations.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/renderers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/request.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/response.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/reverse.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/routers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/coreapi.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/generators.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/inspectors.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/openapi.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/schemas/__pycache__/views.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/serializers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/settings.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/status.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/templatetags/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/templatetags/__pycache__/rest_framework.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/test.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/throttling.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/urlpatterns.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/urls.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/breadcrumbs.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/encoders.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/field_mapping.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/formatting.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/html.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/humanize_datetime.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/json.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/mediatypes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/model_meta.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/representation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/serializer_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/utils/__pycache__/urls.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/validators.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/versioning.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/views.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/rest_framework/__pycache__/viewsets.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "djangorestframework",
+  "sha256": "b4f8891519d52d7422a307deaa49ca6857eb8568b308694d52e9822c0385224d",
+  "size": 861651,
+  "subdir": "noarch",
+  "timestamp": 1663854286750,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/djangorestframework-3.14.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "3.14.0"
+}
